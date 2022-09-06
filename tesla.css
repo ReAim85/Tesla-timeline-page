@@ -1,0 +1,157 @@
+@font-face {
+    font-family: 'academic';
+    src: url('fonts/academic/academic_m54-webfont.woff2') format('woff2'),
+         url('/fonts/academic/academic_m54-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'merriweather';
+    src: url('/fonts/Merriweather-Italic.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.header{
+    font-family: academic;
+    font-size: xx-large;
+    position: absolute;
+    top: 6px;
+    right: 473px;
+    color: white;
+    text-shadow: 2px 1px 3px rgb(0, 0, 0);
+}
+
+/* header styling */
+
+html {
+    background-color: #d0d2d6;
+    background: linear-gradient(#61456a, #61456a 250px, #B6B3B7 250px);
+}
+
+body {
+    margin-top: 150px;
+    width: 1000px;
+    min-height: 500px;
+    margin-left: 300px;
+    box-shadow: 8px 6px 25px 2px rgba(0, 0, 0, .5);
+    background-color:#d0d2d6;
+}
+
+.heading-name {
+    font-family: academic;
+    font-size: 30px;
+    margin-bottom: -30px ;
+    padding-top: 10px;
+    color: white;
+    -webkit-text-stroke: 0.001px black;
+    text-align: center;
+    text-shadow: 2px 1px 3px rgba(150, 150, 150, 1);
+}
+
+#quote {
+    box-shadow: inset 0px 0px 22px -9px rgba(0,0,0,1);
+    font-size: x-large;
+    margin: 24px 100px;
+    text-align: center;
+    color:black;
+}
+
+.heading-img img {
+    margin-left: 35px;
+    box-shadow: 0 0 22px -9px rgba(0, 0, 0, 1);
+}
+
+#study {
+    margin-top: 5px;
+    text-align: center;
+}
+
+/* main content styling */
+
+#line-height {
+    line-height: 30px;
+}
+
+.timeline p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    line-height: 20px;
+}
+
+.small {
+    width: 140px;
+    position: absolute;
+    top: 6285px;
+    right: 336px;
+}
+
+.small2{
+    width: 140px;
+    position: absolute;
+    top: 6637px;
+    right: 336px;
+
+}
+
+#head {
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+#head1 {
+    text-align: center;
+    position: relative;
+    bottom: 13px;
+}
+
+#head2 {
+    box-shadow: inset 0px 0px 22px -9px rgba(0,0,0,1);
+}
+
+#fix {
+    text-align: center;
+}
+
+.embed-name {
+    font-family: academic;
+    font-size: 30px;
+    text-align: center;
+}
+
+.embed {
+    display: block;
+    margin-left: 64px
+}
+
+/* footer */
+
+footer {
+    background: linear-gradient(#61456a, #61456a 250px, #B6B3B7 250px);
+}
+
+#reference {
+    position: relative;
+    bottom: 15px;
+}
+
+#reference:nth-child(2) {
+    padding-bottom: 20px;
+}
+
+footer li a {
+    color: rgb(250, 0, 237);
+    text-decoration: none;
+}
+
+footer li a:hover {
+    background-color: rgb(255, 127, 127);
+}
+
+li {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font: italic;
+}
