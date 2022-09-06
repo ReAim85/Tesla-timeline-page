@@ -19,7 +19,7 @@
     font-size: xx-large;
     position: absolute;
     top: 6px;
-    right: 473px;
+    right: 449px;
     color: white;
     text-shadow: 2px 1px 3px rgb(0, 0, 0);
 }
@@ -84,14 +84,14 @@ body {
 .small {
     width: 140px;
     position: absolute;
-    top: 6285px;
+    top: 6458px;
     right: 336px;
 }
 
 .small2{
     width: 140px;
     position: absolute;
-    top: 6637px;
+    top: 6813px;
     right: 336px;
 
 }
